@@ -1,0 +1,339 @@
+@media only screen and (max-width: 640px){
+    .headerWrapper {
+        /* max-width: 1200px; */
+        margin: 0 auto;
+        display: flex;
+        /* gap: 44%; */
+        justify-content: space-evenly;
+        margin-top: 16px;
+        margin-bottom: 12px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .user {
+        margin-top: 10px;
+    }
+    .slider {
+        width: 100%;
+        height: auto;
+        margin: 0 0 -40px 0;
+    }
+    .supply {
+        flex-direction: column;
+    }
+    .supplyEl{
+        text-align: center;
+    }
+    .rightElements {
+        margin-right: 0px;
+        margin-top: 0px;
+    } 
+
+    .supplyInputs {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        justify-items: center;
+        margin-top:40px;
+    }
+    .accountCard{
+        display: none;
+    }
+    .titleProducts{
+        padding-bottom: 117px;
+        margin-top: -41px;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .cardEl {
+        margin: 20px 0;
+    }
+    .roadMap {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .line{
+        margin: 18px;
+    }
+    .laptopImage img{
+        width: 100%;
+        height: auto;
+    }
+    .btnWrapper {
+        margin: -86px auto -48px auto;
+    }
+    .diam {
+        height: 231px; 
+    }
+    .diamTitle h2 {
+        font-size: 20px;
+        padding-top: 11px;
+        margin-bottom: -11px;
+    }
+    .vaultTextImg {
+        margin: -39px auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .right p {
+        text-align: center;
+        margin: 0 20px;
+    }
+    .moreText {
+        margin: 0 20px;
+    }
+    .left img{
+        width: 100%;
+        height: auto;
+    }
+    .ourVault h3 {
+        margin-top: 43px;
+    }
+    .priceText p {
+        margin: 0 20px;
+    }
+    .diamImg img {
+        width: 100%;
+        height: auto;
+    }
+    .diamondTextImg {
+        margin: -126px 0 0 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .leftDiamond p {
+        text-align: center;
+        font-size: 15px;
+        margin: 0 20px -55px 20px;
+    }
+    .leftDiamond h2 {
+        text-align: center;
+    }
+    .diamondIcons {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: -26px 0;
+    }
+    .rightDiamond img{
+        width: 100%;
+        height: auto;       
+        margin-bottom: -70px;
+    }
+    .platContent {
+        margin-top: -131px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .leftPlat img{
+        width: 100%;
+        height: auto;
+    }
+    .rightPlat h2{
+        text-align: center;
+    }
+    .rightPlat p{
+        text-align: center;
+        margin: 0 20px;
+    }
+    .infElements1 {
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .infElements2 {
+        align-items: center;
+        margin-top: -32px;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .infEl1:nth-child(2) {
+        transform: rotate(90deg);
+        margin-top: 63px;
+    }
+    .infEl1:nth-child(4) {
+        transform: rotate(90deg);
+        margin: 26px 16px 43px 10px;
+    }
+    .centreArrow {
+        left: 0px;
+    }
+    .infEl2:nth-child(4) {
+        transform: rotate(270deg);
+    }
+    .infEl2:nth-child(2) {
+        transform: rotate(270deg);
+    }
+    .infEl2:nth-child(5) {
+        margin: 100px;
+    }
+    .infEl2:nth-child(4) {
+        margin: -29px 31px 0px 25px;
+    }
+    .infEl2:nth-child(2) {
+        transform: rotate(270deg);
+        margin: 16px 0 39px 0;
+    }
+    .infEl2:nth-child(1) {
+        margin-right: 7px;
+    }
+    .infrastructure {
+        padding-bottom: 35px;
+    }
+    .aboutWrapper h2 {
+        padding-top: 37px;
+        padding-bottom: 12px;
+    }
+    .aboutWrapper p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        margin: 0 20px;
+    }
+    .partWrapper{
+        margin-top: -70px;
+    }
+    .partners h2 {
+        padding: 43px 0 10px 0;
+    }
+    .partners p {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 29px;
+        margin: -30px 20px 27px 20px;
+    }
+    .partnerLogos {
+        align-items: center;
+        padding-bottom: 35px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .partnerLogos img{
+        margin: 15px 0;
+    }
+    .pressWrapper h2 {
+        margin: 52px 0 49px 0;
+    }
+    .pressCards {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .pressCard{
+        margin: 20px 0;
+    }
+    .teamTitle h2 {
+        padding-top: 46px;
+    }
+    .teamCards {
+        margin-top: 15px;
+        padding-bottom: 4px;
+    }
+    .teamTitle p{
+    margin:0 20px;
+    }
+    .teamCard {
+        margin: 10px 30px;
+    }
+    .footerWrapper {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .socialIcons{
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+    .copyWrap {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+
+
+    .nav-links {
+        position: absolute;
+        right: 0;
+        height: 93vh;
+        top: 1vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 2;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+        position: absolute;
+        top: 22px;
+        right: 30px;
+        z-index: 2;
+    }
+
+    .nav li {
+        list-style-type: none;
+        padding: 23px 27px;
+        border-bottom: 3px solid transparent;
+    }
+
+    .nav li:nth-child(1){
+        margin-top: 38px;
+    }
+    nav ul {
+        padding: 0px 0px ;
+
+    }
+}
+
+
+/* Responsive Menu Animation*/
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
